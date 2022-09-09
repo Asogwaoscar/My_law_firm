@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: gainsboro; */
+}
+
+#firm{
+    width: 50%;
+    height: 450px;
+    box-sizing: border-box;
+    margin: 2rem auto;
+    background-image: url('../img/law\ firm.jfif');
+    background-position: center;
+    background-size: cover;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: auto;
+    height: 50px;
+    padding-left: 70px;
+    border: 1px solid gray;
+    color: black;
+}
+#nav h4{
+    margin-left: -300px;
+    margin-top: 17px;
+}
+strong{
+    margin-top: 17px;
+    margin-right: 80px;
+}
+
+img{
+    background: orangered;
+    border-radius: 50%;
+    padding: 5px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    margin-left: 0px;
+}
+#law{
+    margin-top: -20px;
+    padding: 5px;
+    line-height: 5px;
+    margin-left: 10px;
+
+}
+#law p{
+color: gainsboro;
+font-size: 1.3rem;
+font-weight: 300;
+margin: 30px;
+}
+#law strong{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 30px;
+}
+.btn{
+    margin-top: -5px;
+    margin-left: 30px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font: bolder;
+    cursor: pointer;
+}
+form{
+    background-color: rgb(255, 69, 0);
+    width: 230px;
+    height: 300px;
+    margin-right: -40px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: -20px;
+}
+form h1, p{
+    margin-top: -10px;
+    padding: 1px;
+    color: white;
+}
+input{
+    width: 220px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+}
+textarea{
+    resize: none;
+    width: 220px;
+    height: 50px;
+    margin: 5px;
+    border: none;
+}
+.btnn{
+    background-color: black;
+    width: 225px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+#services{
+    background-color: gainsboro;
+    display: block;
+    border: 5px solid gainsboro;
+    margin-top: -30px;
+}
+
+.tag{
+text-align: center;
+margin-top: 50px;
+font-size: 1.5rem;
+font-weight: bold;
+line-height: 10px;
+}
+.tag p{
+    color: gray;
+    font-size: 1rem;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    line-height: 40px;
+    align-items: center;
+    margin-top: 40px;
+}
+.icon img{
+    padding: 20px;
+}
+.icon p{
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    margin-left: -15px;
+}
